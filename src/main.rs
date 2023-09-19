@@ -9,7 +9,7 @@ fn main() {
 }
 
 fn longdiv(a: i32, b: i32) -> (i32, i32) {
-    return ((b/a) as i32, b % a);
+    return ((a/b) as i32, a % b);
 }
 
 
